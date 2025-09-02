@@ -1,0 +1,76 @@
+body{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+
+#box{
+    width: 250px;
+    height: 300px;
+    border: solid black 2px;
+    /* margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 78px;  */
+    margin: 50px auto;
+    padding: 10px;
+}
+
+ #screen {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 15px;
+      text-align: right;
+      font-size: 22px;
+      /* padding: 10px; */
+      border: 2px solid black;
+      border-radius: 5px;
+      background: white;
+    }
+#inside{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 column grid */
+    gap: 10px;
+}
+
+
+
+.Number{
+    
+    width: 60px;
+    margin-left: 5px;
+    margin-top: 5px;
+    height: 60px;
+    /* size: 40px; */
+    transition: 3s;
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+    background-color: lightblue;
+    font-size: 16px; 
+    cursor: pointer;
+}
+.Number:hover{
+    background-color: cadetblue;
+}
+
+
+
+
+/* yeh maths ka bare me h */
+.maths{
+    margin-left: 5px;
+    margin-top: 5px;
+     width: 40px;
+    height: 45px;
+    /* size: 40px; */
+    /* transition: all; */
+    border-radius: 20%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 141, 37);
+    font-size: 16px;
+}
+.maths:hover{
+     background-color: cadetblue;
+}
+
+
